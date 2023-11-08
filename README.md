@@ -19,9 +19,9 @@ Per iniziare a utilizzare `JSONtestFactory`, segui i passaggi di installazione q
 
 Per installare e configurare l'ambiente virtuale necessario per eseguire `JSONtestFactory`, eseguire lo script `setup.sh`:
 
-\```bash
+```bash
 ./setup.sh
-\```
+```
 
 ## Esempi di Utilizzo
 
@@ -31,23 +31,23 @@ Dopo aver configurato l'ambiente come descritto nella sezione Installazione, puo
 
 Per generare un file JSON contenente 10 record fittizi:
 
-\```bash
+```bash
 python main.py 10
-\```
+```
 
 Questo comando stampa i dati JSON direttamente nella console. Se desideri salvare l'output in un file, puoi reindirizzare l'output in questo modo:
 
-\```bash
+```bash
 python main.py 10 > output.json
-\```
+```
 
 ### Generare un Numero Maggiore di Record
 
 Puoi anche generare un numero maggiore di record, come mostrato nell'esempio seguente per 1000 record:
 
-\```bash
+```bash
 python main.py 1000 > output.json
-\```
+```
 
 Assicurati di avere abbastanza memoria e spazio su disco se pianifichi di generare un numero molto grande di record.
 
